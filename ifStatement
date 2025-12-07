@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class ifStatement {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter age");
+        int age = sc.nextInt();
+
+        if(age<=12) {
+            System.out.println("you are kid");
+        }
+        else if(age>=13 && age<=18){
+            System.out.println("you are teenager");
+        }
+        else if((age>=20) && (age<=40)){
+            System.out.println("you are youngsters");
+        }
+        else if(age>=40 && age<=55){
+            System.out.println("you are man");
+        }
+        else if(age>=55 && age<=70){
+            System.out.println("you are old man");
+        }
+        else {
+            System.out.println("exit");
+        }
+
+    }
+
+}
