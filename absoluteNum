@@ -1,0 +1,17 @@
+public class absoluteNum {
+
+        public static void main(String[] args) {
+
+
+        int num =12;
+
+        if(num<0){
+            num=-num;
+            System.out.println("its not a absolute number" );
+        }
+        else{
+            System.out.println(+num + "it is a absolute number" );
+        }
+
+        }
+}
